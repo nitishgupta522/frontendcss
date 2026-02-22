@@ -1,0 +1,104 @@
+@font-face {
+    font-family: love;
+    src: url(./love_3/Love.ttf);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 26, 53);
+}
+#navbar{
+    height: 5%;
+    width: 100%;
+   position: absolute;
+    
+}
+#navbar a{
+    padding-left: 180px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+   
+}
+#navbar a:hover{
+    color: goldenrod;
+    text-decoration: line-through;
+}
+img{
+    width: 350px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 580px;
+    margin-bottom: 75px;
+    
+}
+#left{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 26, 53);
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-family: love;
+    font-size: 25px;
+
+}
+
+#right{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(31, 26, 53);
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+#right h4{
+    padding: 20px;
+}
+#bigb
+{
+    height: 250px;
+    width: 350px;
+    background-color: transparent;
+    color: rgb(133, 124, 124);
+    position: absolute;
+    top: 200px;
+    right: 480px;
+    
+
+}
+#bigb h1{
+    font-size: 330px;
+    font-weight: 0px;
+    text-shadow: 5px 5px 10px rgb(165, 144, 91);
+font-family: love;
+
+    
+}
+
+#bigb h1 span{
+    font-style: italic;
+}
+#bigb h1:hover{
+    color: rgb(151, 82, 2);
+    text-shadow: none;
+}
+
+
